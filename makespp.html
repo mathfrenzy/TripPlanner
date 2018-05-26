@@ -4,39 +4,37 @@
 	<meta charset="UTF-8">
 	<title>Cravel</title>
     <link rel="stylesheet" href="css/makespp.css">
-	<script src = ""></script>
+	<script type="text/javascript" src="js/makespp.js"></script>
 </head>
 <body>
     <header>
-		<div id="title">
-		<h1>Cravel</h1>
-	</div>
+        <h1>Cravel</h1>
+		<img id="title" src="https://files.slack.com/files-pri/TAWTRVD29-FAWMTC999/mainlogo.png">
+
 	</header>
 		<h2 id = "select">Select your Trip Below</h2>
         <div id = "container1">
-		<div id="select1">
-		<select>
-			<option value="vegas">Vegas</option>
-			<option value="chicago">Chicago</option>
-			<option value="la">LA</option>
-			<option value="nyc">NYC</option>
-			<option value="tokyo">Tokyo</option>
-			<option value="japan">Japan</option>
-			<option value="london">London</option>
+		<div>
+		<select id="select1" onchange="changeSelect()">
+			<option value="1">Vegas</option>
+			<option value="2">Chicago</option>
+			<option value="3">LA</option>
+			<option value="4">NYC</option>
+			<option value="5">Tokyo</option>
+			<option value="6">London</option>
 		</select>
 	</div>
     <div id="or">
 		<h2>OR</h2>
 	</div>
-	<div id="select2">
-		<select>
-			<option value="vegas">Vegas</option>
-			<option value="chicago">Chicago</option>
-			<option value="la">LA</option>
-			<option value="nyc">NYC</option>
-			<option value="tokyo">Tokyo</option>
-			<option value="japan">Japan</option>
-			<option value="london">London</option>
+	<div>
+		<select id="select2" onchange="changeSelect2()">
+			<option value="1">Vegas</option>
+			<option value="2">Chicago</option>
+			<option value="3">LA</option>
+			<option value="4">NYC</option>
+			<option value="5">Tokyo</option>
+			<option value="6">London</option>
 		</select>
 
 </div>

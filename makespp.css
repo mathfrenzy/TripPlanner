@@ -1,6 +1,6 @@
 header h1{
     text-align:center;
-    font-family:"Comic Sans MS";
+    font-family:"Courier New";
 }
 #select{
     text-align:center;
@@ -42,4 +42,11 @@ option{
 #info2{
     padding-left:8%;
     font-size:1.5em;
+}
+img{
+    display:block;
+    width:10%;
+    margin-left:auto;
+    margin-right:auto;
+    filter: brightness(50%);
 }
