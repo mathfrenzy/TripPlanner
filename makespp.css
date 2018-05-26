@@ -1,0 +1,23 @@
+header h1{
+    text-align:center;
+}
+#select{
+    text-align:center;
+}
+#select1,#or,#select2{
+    display:inline-block;
+}
+#container1{
+    text-align:center;
+}
+body{
+    background-color:#15F093;
+}
+#select1{
+    margin-right:6%;
+    box-sizing:border-box;
+}
+#select2{
+    margin-left:6%;
+    box-sizing:border-box;
+}
